@@ -4,7 +4,7 @@ import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import IncomeApp from "./components/IncomeApp";
 import ExpenseApp from "./components/ExpenseApp";
-import Budget from "./components/main/Budget"
+import Budget from "./components/main/budget"
 
 function App() {
   return (
