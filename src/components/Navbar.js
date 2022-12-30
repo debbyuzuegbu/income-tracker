@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-// import { IconContext } from "react-icons";
+import { IconContext } from "react-icons";
 import { BiMenu, BiX } from "react-icons/bi";
 import {
   Nav,
@@ -20,7 +20,7 @@ const Navbar = () => {
 
   return (
     <div>
-      {/* <IconContext.Provider value={{ color: "#fff" }}> */}
+      <IconContext.Provider value={{ color: "#fff" }}>
         <Nav>
           <NavbarContainer>
             <NavLogo to="/calendar">
@@ -47,15 +47,10 @@ const Navbar = () => {
                   Expense
                 </MenuLink>
               </MenuItem>
-              <MenuItemBtn>
-                <MenuLinkBtn to="/repository">
-                  <button primary>Search Now</button>
-                </MenuLinkBtn>
-              </MenuItemBtn>
             </Menu>
           </NavbarContainer>
         </Nav>
-      {/* </IconContext.Provider> */}
+      </IconContext.Provider>
     </div>
   );
 };

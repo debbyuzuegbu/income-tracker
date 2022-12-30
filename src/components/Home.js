@@ -14,7 +14,6 @@ const Home = () => {
       <HomeContainer>
         <HomeContentText>
           <HomeTitleText>Income-Expense Tracker</HomeTitleText>
-          <HomeTitleText>eep track of your expenses</HomeTitleText>
           <HomeTitleText style={{ fontSize: "20px", justifyContent: "center" }}>
             In one click
           </HomeTitleText>

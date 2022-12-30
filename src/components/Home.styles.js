@@ -2,8 +2,8 @@ import styled from 'styled-components';
 import {Link} from 'react-router-dom';
 
 export const HomeContainer = styled.div`
-background-color:#0b0e14;
-color: #fff;
+background-color: #ffe6fc;
+color: #850b70;
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;

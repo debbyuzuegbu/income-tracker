@@ -8,7 +8,7 @@ font-size: 18px;
 position: sticky;
 top: 0;
 z-index: 999;
-background-color: #0b0e14;
+background-color: #840c6e;
 box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
 display: flex;
 justify-content: center;
@@ -23,7 +23,7 @@ height: 100px;
 `;
 
 export const NavLogo = styled(Link)`
-color: #fff;
+color: ;
 cursor: pointer;
 display: flex;
 align-items: center;
@@ -51,7 +51,7 @@ display: none;
     position: absolute;
     top: 0;
     right: 0;
-    transform: translate(-50%, 20%);
+    transform: translate(-70%, 20%);
     font-size: 3rem;
     cursor: pointer;
 }
@@ -68,7 +68,7 @@ text-align: center;
     position: absolute;
     top: 80px;
     left: ${({click}) => click ? '0' : '-100%'};
-    background-color: #0b0e14;
+    background-color: #850a70;
     transition: all .5s ease;
 }
 `;
@@ -95,7 +95,7 @@ padding: 1rem 2rem;
 height: 100%;
 transition: all .2s ease;
 &:hover {
-    color: #43F3E3;
+    color: #840C70;
     transform: traslateY(-3rem);
     
 }
