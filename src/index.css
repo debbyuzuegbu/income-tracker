@@ -87,6 +87,9 @@ h1 {
 	font-size: 18px;
 	padding: 10px 15px;
 	background-color: #FFF;
+	@media screen (max-width:1600px){
+		padding: 2px 5px;
+	}
 }
 
 .form-inner input[type="text"] {

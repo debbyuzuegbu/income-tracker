@@ -23,7 +23,7 @@ height: 100px;
 `;
 
 export const NavLogo = styled(Link)`
-color: ;
+color: #FFE6FB;
 cursor: pointer;
 display: flex;
 align-items: center;
@@ -95,7 +95,7 @@ padding: 1rem 2rem;
 height: 100%;
 transition: all .2s ease;
 &:hover {
-    color: #840C70;
+    color: #fff;
     transform: traslateY(-3rem);
     
 }

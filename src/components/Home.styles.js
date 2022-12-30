@@ -77,6 +77,12 @@ margin: 0;
 font-size: clamp(1rem, 10vw, 3rem);
 `;
 
+export const HomeTopic = styled.span`
+margin: 0;
+display: flex; 
+flex-direction: row;
+`;
+
 export const HomeSubTitle = styled.h2`
 font-size: clamp(2rem, 3vw, 4rem);
 box-sizing: border-box;
