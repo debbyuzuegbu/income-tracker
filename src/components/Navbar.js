@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 // import { IconContext } from "react-icons";
 import { BiMenu, BiX } from "react-icons/bi";
 import {
@@ -23,9 +23,9 @@ const Navbar = () => {
       {/* <IconContext.Provider value={{ color: "#fff" }}> */}
         <Nav>
           <NavbarContainer>
-            <NavLogo to="/budget">
+            <NavLogo to="/calendar">
               <NavIcon />
-             Budget
+             calendar
             </NavLogo>
             <MenuIcon onClick={handleClick}>
               {click ? <BiX /> : <BiMenu />}

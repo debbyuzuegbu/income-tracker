@@ -18,7 +18,7 @@ function IncomeApp() {
 	
 
 	return (
-		<div className="App">
+		<div>
 			<Header totalIncome={totalIncome} />
 			<IncomeForm income={income} setIncome={setIncome} />
 			<IncomeList income={income} setIncome={setIncome} />

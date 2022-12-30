@@ -4,7 +4,7 @@ import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import IncomeApp from "./components/IncomeApp";
 import ExpenseApp from "./components/ExpenseApp";
-import Budget from "./components/main/budget"
+import Calendar from './components/CalendarApp';
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
             <Route path="/" element={<Home />}></Route>
             <Route path="/income-app" element={<IncomeApp />}></Route>
             <Route path="/expense-app" element={<ExpenseApp />}></Route>
-            <Route path="/budget" element={<Budget />}></Route>
+            <Route path="/calendar" element={<Calendar />}></Route>
           </Routes>
       </div>
   );
