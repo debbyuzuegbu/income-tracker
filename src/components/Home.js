@@ -15,7 +15,7 @@ const Home = () => {
       <HomeContainer>
         <HomeContentText>
           <HomeTopic>
-          <div style={{marginTop: "80px",fontSize:"38px" }}>Income Expense Tracker
+          <div style={{marginTop: "80px",fontSize:"40px" }}>Income Expense Tracker
           <HomeTitleText style={{ fontSize: "20px", justifyContent: "center" }}>
             In one click
           </HomeTitleText>
