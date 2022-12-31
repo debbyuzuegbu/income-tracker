@@ -74,7 +74,7 @@ function CalendarApp() {
     }
 
     return (
-        <div className="Calendar">
+        <div className="calendar">
             <h1>Calendar</h1>
             <h2>Add New Event</h2>
             <div>
