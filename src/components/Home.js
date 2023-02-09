@@ -2,16 +2,18 @@ import React from "react";
 import { Link } from 'react-router-dom';
 
 import {
+  HomePage,
   HomeContainer,
   HomeContentText,
   HomeTitleText,
   HomeFooter,
+  HomeLink,
   HomeTopic,
 } from "./Home.styles";
 
 const Home = () => {
   return (
-    <div>
+    <HomePage>
       <HomeContainer>
         <HomeContentText>
           <HomeTopic>
@@ -20,7 +22,7 @@ const Home = () => {
               <HomeTitleText>
                 Manage your expenses
               </HomeTitleText>
-              <div><Link to="/expense-app">Get Started</Link></div>
+              <HomeTitleText><HomeLink to="/expense-app">Get Started</HomeLink></HomeTitleText>
             </div>
             <div>
               <img
@@ -35,7 +37,7 @@ const Home = () => {
       <HomeFooter>
         Deborah@media2023
       </HomeFooter>
-    </div>
+    </HomePage>
   );
 };
 

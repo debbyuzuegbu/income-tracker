@@ -18,6 +18,10 @@ export const HomeContainer = styled.div`
   }
 `;
 
+export const HomePage = styled.div`
+margin-bottom: 1rem;
+`;
+
 export const HomeContent = styled.section`
   height: 100%;
   width: 100%;
@@ -80,7 +84,7 @@ export const HomeTitle = styled.h1`
 
 export const HomeTitleText = styled.span`
   display: block;
-  margin: 0;
+  margin-bottom: 50px;
   font-size: clamp(1rem, 10vw, 3rem);
   font-size: 20px;
   justify-content: center;
@@ -135,4 +139,12 @@ export const HomeFooter = styled.div`
   align-items: center;
   text-align: center;
   padding: 0.5em;
+`;
+
+export const HomeLink = styled(Link)`
+  text-decoration: none;
+  background-color: #840c6e;
+  color: #ffe6fc;
+  border-radius: 50%;
+  padding: 1rem;
 `;
