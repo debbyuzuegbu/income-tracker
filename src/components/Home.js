@@ -24,6 +24,7 @@ const Home = () => {
             <div>
               <img
                 className="homeImage"
+                alt="home"
                 src="https://i.pinimg.com/564x/76/fc/63/76fc635faaaed966bc31b14fb313e9c9.jpg"
               />
             </div>
