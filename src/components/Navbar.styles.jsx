@@ -32,6 +32,7 @@ font-weight: 600;
 transition: all .5s ease;
 &:hover{
     transform: scale(1.08);
+    color:#e328c4
 }
 `;
 
@@ -100,7 +101,7 @@ transition: all .2s ease;
 }
 &:active {
     transform: traslateY(3rem);
-    color: #43F3E3;
+    color: #e328c4;
 }
 @media only screen and (max-width:1000px){
     display: block;
