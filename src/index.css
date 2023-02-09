@@ -52,7 +52,7 @@ h1 {
 
 .income-form {
 	display: block;
-	margin: 15px;
+	margin: 5rem 20rem;
 	position: relative;
 }
 
@@ -85,7 +85,7 @@ h1 {
 }
 .form-inner input {
 	font-size: 18px;
-	padding: 10px 15px;
+	padding: 10px 10px;
 	background-color: #FFF;
 	@media screen (max-width:1600px){
 		padding: 2px 5px;
