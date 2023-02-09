@@ -10,8 +10,6 @@ import {
   Menu,
   MenuItem,
   MenuLink,
-  MenuItemBtn,
-  MenuLinkBtn,
 } from "./Navbar.styles";
 const Navbar = () => {
   const [click, setClick] = useState(false);

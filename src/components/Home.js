@@ -1,11 +1,11 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 
 import {
   HomeContainer,
   HomeContentText,
   HomeTitleText,
-  HomeText,
-  HomeBtn,
+  HomeFooter,
   HomeTopic,
 } from "./Home.styles";
 
@@ -18,8 +18,9 @@ const Home = () => {
             <div className="homeName">
               Income Expense Tracker
               <HomeTitleText>
-                In one click
+                Manage your expenses
               </HomeTitleText>
+              <div><Link to="/expense-app">Get Started</Link></div>
             </div>
             <div>
               <img
@@ -31,13 +32,9 @@ const Home = () => {
           </HomeTopic>
         </HomeContentText>
       </HomeContainer>
-      <div className="homepage"
-        style={{
-         
-        }}
-      >
+      <HomeFooter>
         Deborah@media2023
-      </div>
+      </HomeFooter>
     </div>
   );
 };

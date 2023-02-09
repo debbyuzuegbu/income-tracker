@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
-import {FaGithubSquare} from 'react-icons/fa';
+import {GiReceiveMoney} from 'react-icons/gi';
 
 export const Nav = styled.nav` 
 font-family: 'Poppins', sans-serif;
@@ -18,8 +18,7 @@ align-items: center;
 export const NavbarContainer = styled.div`
 display: flex;
 justify-content: space-between;
-align-items: center;
-height: 100px;
+justify-content: right;
 `;
 
 export const NavLogo = styled(Link)`
@@ -36,7 +35,7 @@ transition: all .5s ease;
 }
 `;
 
-export const NavIcon = styled(FaGithubSquare)`
+export const NavIcon = styled(GiReceiveMoney)`
 margin-right: .8rem;
 transition: all .5s ease;
 &:hover {
@@ -52,7 +51,7 @@ display: none;
     top: 0;
     right: 0;
     transform: translate(-70%, 20%);
-    font-size: 3rem;
+    font-size: 1rem;
     cursor: pointer;
 }
 `;

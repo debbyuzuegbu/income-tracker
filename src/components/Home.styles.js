@@ -9,12 +9,12 @@ export const HomeContainer = styled.div`
   background-size: cover;
   height: 100vh;
   .homepage {
-    background-color: #840C70;
-    color: #FFE6FC;
+    background-color: #840c70;
+    color: #ffe6fc;
     text-align: center;
   }
   @media only screen and (max-width: 1600px) {
-    height: 85vh;
+    height: 90vh;
   }
 `;
 
@@ -92,7 +92,7 @@ export const HomeTopic = styled.span`
   flex-direction: row;
   .homeName {
     margin-top: 80px;
-    font-size: 40px; 
+    font-size: 40px;
   }
 `;
 
@@ -127,4 +127,12 @@ export const HomeBtn = styled(Link)`
   text-decoration: none;
   outline: none;
   border: none;
+`;
+
+export const HomeFooter = styled.div`
+  background-color: #840c6e;
+  color: #fff;
+  align-items: center;
+  text-align: center;
+  padding: 0.5em;
 `;
